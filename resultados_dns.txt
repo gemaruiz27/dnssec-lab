@@ -1,0 +1,738 @@
+
+======================================================================
+CAPTURA: segundacaptura.pcapng
+======================================================================
+
+Frame: 37
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: <Root>,<Root>,ns.root,<Root>
+Tipo: SOA
+TTL: 86400,86400,86400
+Direccion A: 172.30.0.10
+Servidor NS: ns.root
+SOA servidor primario: ns.root
+SOA administrador: admin.root
+SOA serial: 2026081601
+SOA refresh: 3600
+SOA retry: 900
+SOA expire: 604800
+SOA minimum TTL: 86400
+
+Frame: 38
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: <Root>,<Root>,ns.root,<Root>
+Tipo: SOA
+TTL: 86400,86400,86400
+Direccion A: 172.30.0.10
+Servidor NS: ns.root
+SOA servidor primario: ns.root
+SOA administrador: admin.root
+SOA serial: 2026081601
+SOA refresh: 3600
+SOA retry: 900
+SOA expire: 604800
+SOA minimum TTL: 86400
+
+Frame: 46
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: <Root>,<Root>
+Tipo: SOA
+TTL: 86400
+SOA servidor primario: ns.root
+SOA administrador: admin.root
+SOA serial: 2026081601
+SOA refresh: 3600
+SOA retry: 900
+SOA expire: 604800
+SOA minimum TTL: 86400
+
+Frame: 47
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: <Root>,<Root>
+Tipo: SOA
+TTL: 86400
+SOA servidor primario: ns.root
+SOA administrador: admin.root
+SOA serial: 2026081601
+SOA refresh: 3600
+SOA retry: 900
+SOA expire: 604800
+SOA minimum TTL: 86400
+
+Frame: 48
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: <Root>,<Root>
+Tipo: NS
+TTL: 86400
+Servidor NS: ns.root
+
+Frame: 49
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: <Root>,<Root>
+Tipo: NS
+TTL: 86400
+Servidor NS: ns.root
+
+Frame: 61
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: <Root>,ns.root,<Root>
+Tipo: NS
+TTL: 86394,86394
+Direccion A: 172.30.0.10
+Servidor NS: ns.root
+
+Frame: 62
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: <Root>,ns.root,<Root>
+Tipo: NS
+TTL: 86394,86394
+Direccion A: 172.30.0.10
+Servidor NS: ns.root
+
+Frame: 67
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: <Root>,<Root>
+Tipo: SOA
+TTL: 86400
+SOA servidor primario: ns.root
+SOA administrador: admin.root
+SOA serial: 2026081601
+SOA refresh: 3600
+SOA retry: 900
+SOA expire: 604800
+SOA minimum TTL: 86400
+
+Frame: 68
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: <Root>,<Root>
+Tipo: SOA
+TTL: 86400
+SOA servidor primario: ns.root
+SOA administrador: admin.root
+SOA serial: 2026081601
+SOA refresh: 3600
+SOA retry: 900
+SOA expire: 604800
+SOA minimum TTL: 86400
+
+Frame: 73
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: ns.root,<Root>,<Root>
+Tipo: NS
+TTL: 86400,86400
+Direccion A: 172.30.0.10
+Servidor NS: ns.root
+
+Frame: 74
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: ns.root,<Root>,<Root>
+Tipo: NS
+TTL: 86400,86400
+Direccion A: 172.30.0.10
+Servidor NS: ns.root
+
+Frame: 75
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: <Root>,<Root>
+Tipo: SOA
+TTL: 86400
+SOA servidor primario: ns.root
+SOA administrador: admin.root
+SOA serial: 2026081601
+SOA refresh: 3600
+SOA retry: 900
+SOA expire: 604800
+SOA minimum TTL: 86400
+
+Frame: 76
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: <Root>,<Root>
+Tipo: SOA
+TTL: 86400
+SOA servidor primario: ns.root
+SOA administrador: admin.root
+SOA serial: 2026081601
+SOA refresh: 3600
+SOA retry: 900
+SOA expire: 604800
+SOA minimum TTL: 86400
+
+Frame: 77
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: ns.root,<Root>
+Tipo: A
+TTL: 86400
+Direccion A: 172.30.0.10
+
+Frame: 78
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: ns.root,<Root>
+Tipo: A
+TTL: 86400
+Direccion A: 172.30.0.10
+
+Frame: 83
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: unsigned,ns.unsigned,<Root>
+Tipo: NS
+TTL: 86400,86400
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+
+Frame: 84
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: unsigned,ns.unsigned,<Root>
+Tipo: NS
+TTL: 86400,86400
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+
+Frame: 94
+Origen: 172.30.0.20
+Destino: 172.30.0.100
+Nombre: unsigned,unsigned,ns.unsigned,<Root>
+Tipo: SOA
+TTL: 86400,86400,86400
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+SOA servidor primario: ns.unsigned
+SOA administrador: admin.unsigned
+SOA serial: 2026082001
+SOA refresh: 3600
+SOA retry: 900
+SOA expire: 604800
+SOA minimum TTL: 86400
+
+Frame: 95
+Origen: 172.30.0.20
+Destino: 172.30.0.100
+Nombre: unsigned,unsigned,ns.unsigned,<Root>
+Tipo: SOA
+TTL: 86400,86400,86400
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+SOA servidor primario: ns.unsigned
+SOA administrador: admin.unsigned
+SOA serial: 2026082001
+SOA refresh: 3600
+SOA retry: 900
+SOA expire: 604800
+SOA minimum TTL: 86400
+
+Frame: 96
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: unsigned,<Root>
+Tipo: SOA
+TTL: 86400
+SOA servidor primario: ns.unsigned
+SOA administrador: admin.unsigned
+SOA serial: 2026082001
+SOA refresh: 3600
+SOA retry: 900
+SOA expire: 604800
+SOA minimum TTL: 86400
+
+Frame: 97
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: unsigned,<Root>
+Tipo: SOA
+TTL: 86400
+SOA servidor primario: ns.unsigned
+SOA administrador: admin.unsigned
+SOA serial: 2026082001
+SOA refresh: 3600
+SOA retry: 900
+SOA expire: 604800
+SOA minimum TTL: 86400
+
+Frame: 105
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: unsigned,ns.unsigned,<Root>
+Tipo: NS
+TTL: 86393,86393
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+
+Frame: 106
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: unsigned,ns.unsigned,<Root>
+Tipo: NS
+TTL: 86393,86393
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+
+Frame: 115
+Origen: 172.30.0.20
+Destino: 172.30.0.100
+Nombre: ns.unsigned,unsigned,<Root>
+Tipo: NS
+TTL: 86400,86400
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+
+Frame: 116
+Origen: 172.30.0.20
+Destino: 172.30.0.100
+Nombre: ns.unsigned,unsigned,<Root>
+Tipo: NS
+TTL: 86400,86400
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+
+Frame: 117
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: ns.unsigned,<Root>
+Tipo: A
+TTL: 86400
+Direccion A: 172.30.0.20
+
+Frame: 118
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: ns.unsigned,<Root>
+Tipo: A
+TTL: 86400
+Direccion A: 172.30.0.20
+
+======================================================================
+CAPTURA: cuartacaptura.pcapng
+======================================================================
+
+Frame: 58
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: <Root>,<Root>
+Tipo: NS
+TTL: 86400
+Servidor NS: ns.root
+
+Frame: 59
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: <Root>,<Root>
+Tipo: NS
+TTL: 86400
+Servidor NS: ns.root
+
+Frame: 60
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: unsigned,ns.unsigned,<Root>
+Tipo: NS
+TTL: 86400,86400
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+
+Frame: 61
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: unsigned,ns.unsigned,<Root>
+Tipo: NS
+TTL: 86400,86400
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+
+Frame: 71
+Origen: 172.30.0.20
+Destino: 172.30.0.100
+Nombre: unsigned,unsigned,ns.unsigned,<Root>
+Tipo: SOA
+TTL: 86400,86400,86400
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+SOA servidor primario: ns.unsigned
+SOA administrador: admin.unsigned
+SOA serial: 2026082001
+SOA refresh: 3600
+SOA retry: 900
+SOA expire: 604800
+SOA minimum TTL: 86400
+
+Frame: 72
+Origen: 172.30.0.20
+Destino: 172.30.0.100
+Nombre: unsigned,unsigned,ns.unsigned,<Root>
+Tipo: SOA
+TTL: 86400,86400,86400
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+SOA servidor primario: ns.unsigned
+SOA administrador: admin.unsigned
+SOA serial: 2026082001
+SOA refresh: 3600
+SOA retry: 900
+SOA expire: 604800
+SOA minimum TTL: 86400
+
+Frame: 80
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: unsigned,<Root>
+Tipo: SOA
+TTL: 86400
+SOA servidor primario: ns.unsigned
+SOA administrador: admin.unsigned
+SOA serial: 2026082001
+SOA refresh: 3600
+SOA retry: 900
+SOA expire: 604800
+SOA minimum TTL: 86400
+
+Frame: 81
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: unsigned,<Root>
+Tipo: SOA
+TTL: 86400
+SOA servidor primario: ns.unsigned
+SOA administrador: admin.unsigned
+SOA serial: 2026082001
+SOA refresh: 3600
+SOA retry: 900
+SOA expire: 604800
+SOA minimum TTL: 86400
+
+Frame: 97
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: unsigned,ns.unsigned,<Root>
+Tipo: NS
+TTL: 86391,86391
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+
+Frame: 98
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: unsigned,ns.unsigned,<Root>
+Tipo: NS
+TTL: 86391,86391
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+
+Frame: 104
+Origen: 172.30.0.20
+Destino: 172.30.0.100
+Nombre: ns.unsigned,unsigned,<Root>
+Tipo: NS
+TTL: 86400,86400
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+
+Frame: 105
+Origen: 172.30.0.20
+Destino: 172.30.0.100
+Nombre: ns.unsigned,unsigned,<Root>
+Tipo: NS
+TTL: 86400,86400
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+
+Frame: 106
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: ns.unsigned,<Root>
+Tipo: A
+TTL: 86400
+Direccion A: 172.30.0.20
+
+Frame: 107
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: ns.unsigned,<Root>
+Tipo: A
+TTL: 86400
+Direccion A: 172.30.0.20
+
+======================================================================
+CAPTURA: primeracaptura.pcapng
+======================================================================
+
+Frame: 38
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: <Root>,<Root>
+Tipo: NS
+TTL: 86400
+Servidor NS: ns.root
+
+Frame: 39
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: <Root>,<Root>
+Tipo: NS
+TTL: 86400
+Servidor NS: ns.root
+
+Frame: 40
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: unsigned,ns.unsigned,<Root>
+Tipo: NS
+TTL: 86400,86400
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+
+Frame: 41
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: unsigned,ns.unsigned,<Root>
+Tipo: NS
+TTL: 86400,86400
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+
+Frame: 55
+Origen: 172.30.0.20
+Destino: 172.30.0.100
+Nombre: alpha.unsigned,ns.alpha.unsigned,<Root>
+Tipo: NS
+TTL: 86400,86400
+Direccion A: 172.30.0.30
+Servidor NS: ns.alpha.unsigned
+
+Frame: 56
+Origen: 172.30.0.20
+Destino: 172.30.0.100
+Nombre: alpha.unsigned,ns.alpha.unsigned,<Root>
+Tipo: NS
+TTL: 86400,86400
+Direccion A: 172.30.0.30
+Servidor NS: ns.alpha.unsigned
+
+Frame: 57
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: <Root>,<Root>
+Tipo: NS
+TTL: 86400
+Servidor NS: ns.root
+
+Frame: 58
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: <Root>,<Root>
+Tipo: NS
+TTL: 86400
+Servidor NS: ns.root
+
+Frame: 59
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: unsigned,ns.unsigned,<Root>
+Tipo: NS
+TTL: 86400,86400
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+
+Frame: 60
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: unsigned,ns.unsigned,<Root>
+Tipo: NS
+TTL: 86400,86400
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+
+Frame: 70
+Origen: 172.30.0.30
+Destino: 172.30.0.100
+Nombre: www.alpha.unsigned,alpha.unsigned,ns.alpha.unsigned,<Root>
+Tipo: NS
+TTL: 86400,86400,86400
+Direccion A: 172.30.0.30,172.30.0.30
+Servidor NS: ns.alpha.unsigned
+
+Frame: 71
+Origen: 172.30.0.30
+Destino: 172.30.0.100
+Nombre: www.alpha.unsigned,alpha.unsigned,ns.alpha.unsigned,<Root>
+Tipo: NS
+TTL: 86400,86400,86400
+Direccion A: 172.30.0.30,172.30.0.30
+Servidor NS: ns.alpha.unsigned
+
+Frame: 83
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: www.alpha.unsigned,<Root>
+Tipo: A
+TTL: 86400
+Direccion A: 172.30.0.30
+
+Frame: 84
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: www.alpha.unsigned,<Root>
+Tipo: A
+TTL: 86400
+Direccion A: 172.30.0.30
+
+Frame: 87
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: unsigned,ns.unsigned,<Root>
+Tipo: NS
+TTL: 86400,86400
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+
+Frame: 88
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: unsigned,ns.unsigned,<Root>
+Tipo: NS
+TTL: 86400,86400
+Direccion A: 172.30.0.20
+Servidor NS: ns.unsigned
+
+Frame: 89
+Origen: 172.30.0.20
+Destino: 172.30.0.100
+Nombre: unsigned,<Root>
+Tipo: SOA
+TTL: 86400
+SOA servidor primario: ns.unsigned
+SOA administrador: admin.unsigned
+SOA serial: 2026082001
+SOA refresh: 3600
+SOA retry: 900
+SOA expire: 604800
+SOA minimum TTL: 86400
+
+Frame: 90
+Origen: 172.30.0.20
+Destino: 172.30.0.100
+Nombre: unsigned,<Root>
+Tipo: SOA
+TTL: 86400
+SOA servidor primario: ns.unsigned
+SOA administrador: admin.unsigned
+SOA serial: 2026082001
+SOA refresh: 3600
+SOA retry: 900
+SOA expire: 604800
+SOA minimum TTL: 86400
+
+Frame: 91
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: <Root>,<Root>
+Tipo: NS
+TTL: 86400
+Servidor NS: ns.root
+
+Frame: 92
+Origen: 172.30.0.10
+Destino: 172.30.0.100
+Nombre: <Root>,<Root>
+Tipo: NS
+TTL: 86400
+Servidor NS: ns.root
+
+Frame: 95
+Origen: 172.30.0.20
+Destino: 172.30.0.100
+Nombre: alpha.unsigned,ns.alpha.unsigned,<Root>
+Tipo: NS
+TTL: 86400,86400
+Direccion A: 172.30.0.30
+Servidor NS: ns.alpha.unsigned
+
+Frame: 96
+Origen: 172.30.0.20
+Destino: 172.30.0.100
+Nombre: alpha.unsigned,ns.alpha.unsigned,<Root>
+Tipo: NS
+TTL: 86400,86400
+Direccion A: 172.30.0.30
+Servidor NS: ns.alpha.unsigned
+
+Frame: 99
+Origen: 172.30.0.30
+Destino: 172.30.0.100
+Nombre: alpha.unsigned,<Root>
+Tipo: SOA
+TTL: 86400
+SOA servidor primario: ns.alpha.unsigned
+SOA administrador: admin.alpha.unsigned
+SOA serial: 2026082401
+SOA refresh: 3600
+SOA retry: 900
+SOA expire: 604800
+SOA minimum TTL: 86400
+
+Frame: 100
+Origen: 172.30.0.30
+Destino: 172.30.0.100
+Nombre: alpha.unsigned,<Root>
+Tipo: SOA
+TTL: 86400
+SOA servidor primario: ns.alpha.unsigned
+SOA administrador: admin.alpha.unsigned
+SOA serial: 2026082401
+SOA refresh: 3600
+SOA retry: 900
+SOA expire: 604800
+SOA minimum TTL: 86400
+
+======================================================================
+CAPTURA: terceracaptura.pcapng
+======================================================================
+
+Frame: 6
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: <Root>,ns.root,<Root>
+Tipo: NS
+TTL: 85774,85789
+Direccion A: 172.30.0.10
+Servidor NS: ns.root
+
+Frame: 7
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: <Root>,ns.root,<Root>
+Tipo: NS
+TTL: 85774,85789
+Direccion A: 172.30.0.10
+Servidor NS: ns.root
+
+Frame: 18
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: ns.root,<Root>
+Tipo: A
+TTL: 85776
+Direccion A: 172.30.0.10
+
+Frame: 19
+Origen: 172.30.0.100
+Destino: 172.30.0.1
+Nombre: ns.root,<Root>
+Tipo: A
+TTL: 85776
+Direccion A: 172.30.0.10

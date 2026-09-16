@@ -1,0 +1,88 @@
+=================================================================
+ ANALIZADOR DNSSEC
+=================================================================
+Zona: badds.test.
+
+=== DNSKEY ===
+TTL DNSKEY: 86400
+
+Key Tag: 48006
+Tipo: ZSK
+Algoritmo: 13 (ECDSAP256SHA256)
+[OK] Algoritmo autorizado
+
+Key Tag: 44146
+Tipo: ZSK
+Algoritmo: 13 (ECDSAP256SHA256)
+[OK] Algoritmo autorizado
+
+Key Tag: 1516
+Tipo: KSK / SEP
+Algoritmo: 13 (ECDSAP256SHA256)
+[OK] Algoritmo autorizado
+
+Key Tag: 10660
+Tipo: KSK / SEP
+Algoritmo: 13 (ECDSAP256SHA256)
+[OK] Algoritmo autorizado
+
+=== RRSIG ===
+TTL RRSIG: 86400
+
+RRSet firmado: DNSKEY
+Key Tag: 1516
+Algoritmo: 13
+Firmante: badds.test.
+Inicio: 2026-09-08 15:46:15 UTC
+Expiracion: 2026-10-08 15:46:15 UTC
+[OK] Firma vigente
+
+RRSet firmado: DNSKEY
+Key Tag: 10660
+Algoritmo: 13
+Firmante: badds.test.
+Inicio: 2026-09-08 15:46:15 UTC
+Expiracion: 2026-10-08 15:46:15 UTC
+[OK] Firma vigente
+
+RRSet firmado: DNSKEY
+Key Tag: 44146
+Algoritmo: 13
+Firmante: badds.test.
+Inicio: 2026-09-08 15:46:15 UTC
+Expiracion: 2026-10-08 15:46:15 UTC
+[OK] Firma vigente
+
+RRSet firmado: DNSKEY
+Key Tag: 48006
+Algoritmo: 13
+Firmante: badds.test.
+Inicio: 2026-09-08 15:46:15 UTC
+Expiracion: 2026-10-08 15:46:15 UTC
+[OK] Firma vigente
+
+=== NSEC / NSEC3 ===
+[OK] NSEC detectado - TTL 86377
+[!] La zona utiliza NSEC: los nombres pueden facilitar zone walking.
+
+=== CADENA DE CONFIANZA ===
+. -> test. -> badds.test.
+[OK] Trust Anchor de la raiz coincide
+[OK] test.: DS coincide con DNSKEY
+[ERROR] badds.test.: DS NO coincide con DNSKEY
+
+=== TTL ===
+DNSKEY: 86400 segundos
+DS: 86231 segundos
+NSEC: 86377 segundos
+
+=== RESPUESTA DEL RECURSIVO DNSSEC ===
+Estado: SERVFAIL
+AD: NO
+
+=== PRUEBA DE ZONE WALKING ===
+[!] No se pudo encontrar el servidor autoritativo.
+
+=================================================================
+RESULTADO FINAL: BOGUS
+=================================================================

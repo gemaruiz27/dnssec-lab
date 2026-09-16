@@ -1,0 +1,122 @@
+; File written on Tue Sep  8 12:05:17 2026
+; dnssec-signzone version 9.20.26-1-Debian
+signed.			86400	IN SOA	ns.signed. admin.signed. (
+					2026090802 ; serial
+					3600       ; refresh (1 hour)
+					900        ; retry (15 minutes)
+					604800     ; expire (1 week)
+					86400      ; minimum (1 day)
+					)
+			86400	RRSIG	SOA 13 1 86400 (
+					20261008150517 20260908150517 38376 signed.
+					5zvpDB4a3wEkgAVeJcwQUlUjmI5ii9eUOt4e
+					tcNdKpSn/VLWOW/MrUYTyfON5lyT7ExvAGvC
+					cYBgvmg7vQpDCA== )
+			86400	NS	ns.signed.
+			86400	RRSIG	NS 13 1 86400 (
+					20261008150517 20260908150517 38376 signed.
+					w/iTpaIpILc+vPwV8B7t2q/ytzwv08DDy3XX
+					lzJVkDSEftX3y7vRiWABIZQmB2TmGHKJbmlU
+					hxCwvqUSD8qyIw== )
+			86400	NSEC	beta.signed. NS SOA RRSIG NSEC DNSKEY
+			86400	RRSIG	NSEC 13 1 86400 (
+					20261008150517 20260908150517 38376 signed.
+					LjQH7jr7pdw9hiSHeTgBTs1hTleIxM5Jn6C3
+					wvjzxs0mDTJWEoIcL4WYfGw028ZvVc5QJDBU
+					LN0LQ9urXw6KzA== )
+			86400	DNSKEY	256 3 13 (
+					1KMZKtSItlJwkz9/9NW4dRDurFOh8CNgMIOj
+					4BtFWzyy2gMcz9kf1TGm5TCIn1G0HUm40zIC
+					n2eyXm8fGm90Fw==
+					) ; ZSK; alg = ECDSAP256SHA256 ; key id = 38376
+			86400	DNSKEY	257 3 13 (
+					/4mSNfWku9xPiBhqAlQ6TIiULssb2Bko38d3
+					wQ71oDSNk3YuvqR8btfuEsKz+oaVICvN/s0A
+					mTm0tJg/MSRYQQ==
+					) ; KSK; alg = ECDSAP256SHA256 ; key id = 28105
+			86400	RRSIG	DNSKEY 13 1 86400 (
+					20261008150517 20260908150517 28105 signed.
+					m0fLl4zo/KCrLCHBeXpYSPaWtvkCNrs1X7PK
+					pl1yAk1CBANYWR/NSYyOr7sub2AxSR8D7tJU
+					p96bDNAE9ZgDIQ== )
+			86400	RRSIG	DNSKEY 13 1 86400 (
+					20261008150517 20260908150517 38376 signed.
+					KGYG8MOFnpS65zihSj9HLmxFUrX/nfuWQN2L
+					UHxZwYAbBx1/AQarepswGIo7BsCJJm/Bp6rf
+					QHtHDgarIYZONg== )
+beta.signed.		86400	IN NS	ns.beta.signed.
+			86400	DS	56945 13 2 (
+					BDBE40E92B65170671587BB20D78253F80A4
+					8C18391E6E30D6AB271AD572FEBD )
+			86400	RRSIG	DS 13 2 86400 (
+					20261008150517 20260908150517 38376 signed.
+					vJQgJ2EOTmtIh3DK9erP10a4QE4FiGXyx+h3
+					O16iGqSdsz7dX7ZPWkGHGfaGPmBlw0BtsU07
+					eITGrDnhIK/Cyg== )
+			86400	NSEC	delta.signed. NS DS RRSIG NSEC
+			86400	RRSIG	NSEC 13 2 86400 (
+					20261008150517 20260908150517 38376 signed.
+					7bIGVbuIMQP7OflDQvj5Q30msoVJm/CdXgUw
+					eAImc7Ma2YPc+vYTqXGWNc2FifT9Wzyir8Eq
+					jEmH/HvWL2HVqQ== )
+ns.beta.signed.		86400	IN A	172.30.0.50
+delta.signed.		86400	IN NS	ns.delta.signed.
+			86400	DS	25026 13 2 (
+					A749F183506F3D2C3051231EC2F94D84DBEC
+					91290982676B51FCA28EB6CA4EFE )
+			86400	RRSIG	DS 13 2 86400 (
+					20261008150517 20260908150517 38376 signed.
+					wF0mOwH4rn8w5Ze8HHvHli3A0zjSLrqQ1SyF
+					S3gmp1Tr7+IcCgyr6clg+tKYroSrQMUsAWRq
+					dw2pXB3uex53+w== )
+			86400	NSEC	epsilon.signed. NS DS RRSIG NSEC
+			86400	RRSIG	NSEC 13 2 86400 (
+					20261008150517 20260908150517 38376 signed.
+					TOh7jC/raXspKL2SGF1iBobk2DhMm5YGwyEE
+					61Yr8KKRmqphwm5zkDO4ZiOc2b6g3Gpyplvd
+					ok/i61nNgt9v8Q== )
+ns.delta.signed.	86400	IN A	172.30.0.83
+epsilon.signed.		86400	IN NS	ns.epsilon.signed.
+			86400	DS	30307 13 2 (
+					1ABA41ADB95A6B2CBF3BB21324D5925EEF69
+					3CE778F8D5B8EC73543708AF7554 )
+			86400	RRSIG	DS 13 2 86400 (
+					20261008150517 20260908150517 38376 signed.
+					TIfGZ+Se3xFSwnNRNPfWxnFceumDAN1VpyB3
+					frg+YSX/kGu24ie4hOAa+d3FGA/jpdflFQRL
+					Qb9T57Tujlb2HA== )
+			86400	NSEC	gamma.signed. NS DS RRSIG NSEC
+			86400	RRSIG	NSEC 13 2 86400 (
+					20261008150517 20260908150517 38376 signed.
+					yb4EtE3+Y7NKtxJPlCGTR01Fm6k/jr7I+2mv
+					NQemE18W2lMT8JmIABWJxiCyq9sr0bmDbnSj
+					RPuPDpAz7S/0ng== )
+ns.epsilon.signed.	86400	IN A	172.30.0.84
+gamma.signed.		86400	IN NS	ns.gamma.signed.
+			86400	NSEC	ns.signed. NS RRSIG NSEC
+			86400	RRSIG	NSEC 13 2 86400 (
+					20261008150517 20260908150517 38376 signed.
+					1SpSAexCj5KKlh0Xf9NmZk2Wdj7ddp9lngHC
+					N5+F//LAPKKqO88CdSVWe7wXaENjdYYdH8ui
+					SrQDojSE8CmmeQ== )
+ns.gamma.signed.	86400	IN A	172.30.0.60
+ns.signed.		86400	IN A	172.30.0.40
+			86400	RRSIG	A 13 2 86400 (
+					20261008150517 20260908150517 38376 signed.
+					v9/yjoKwh4TXRivp8GrAQNdD6Z4T2VJunGf7
+					AGc0R9/D5ynaXb3uUXGYdaIWsAI5s/uPsi4C
+					YXWBjuffp01+dQ== )
+			86400	NSEC	zeta.signed. A RRSIG NSEC
+			86400	RRSIG	NSEC 13 2 86400 (
+					20261008150517 20260908150517 38376 signed.
+					iwdly4uBTEdpMRXTjjrNNvdoHiAHx87o6kWL
+					VPmqnlVN6NJ7UkHetbHUHG8QpvXVCaIRSiH4
+					dPsBJy0PVnjl9w== )
+zeta.signed.		86400	IN NS	ns.zeta.signed.
+			86400	NSEC	signed. NS RRSIG NSEC
+			86400	RRSIG	NSEC 13 2 86400 (
+					20261008150517 20260908150517 38376 signed.
+					KjxmdEyGV4rngD7SGH7J1QHDTo2H5hC7Pu/t
+					lXENHwpBqPyZZ2OCXrus2kCa91X01/4gR8KF
+					jmKsjXE4/tRJwA== )
+ns.zeta.signed.		86400	IN A	172.30.0.85

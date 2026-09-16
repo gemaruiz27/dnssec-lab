@@ -1,0 +1,36 @@
+$TTL 86400
+
+@ IN SOA ns.root. admin.root. (
+    2026090801
+    3600
+    900
+    604800
+    86400
+)
+
+@ IN NS ns.root.
+
+ns.root. IN A 172.30.0.10
+
+; Delegación hacia unsigned
+unsigned. IN NS ns.unsigned.
+ns.unsigned. IN A 172.30.0.20
+
+; ==================================
+; TLD SIGNED
+; ==================================
+
+signed. IN NS ns.signed.
+ns.signed. IN A 172.30.0.40
+
+signed. IN DS 28105 13 2 1A72436E6101647CC61AC426B1AE410FA9E80FDD5B42D60A19487F172592BAC5
+
+; ==================================
+; TLD TEST
+; ==================================
+
+test. IN NS ns.test.
+ns.test. IN A 172.30.0.70
+
+test. IN DS 9929 13 2 379E76D45AD26BEC4B8802F8B5FEA37C55A36CE0B21A960BAC84216B889EC04C
+

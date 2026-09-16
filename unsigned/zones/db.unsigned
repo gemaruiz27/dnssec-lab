@@ -1,0 +1,33 @@
+$TTL 86400
+
+@ IN SOA ns.unsigned. admin.unsigned. (
+    2026090701
+    3600
+    900
+    604800
+    86400
+)
+
+@ IN NS ns.unsigned.
+
+ns.unsigned. IN A 172.30.0.20
+
+; Delegacion hacia alpha.unsigned
+alpha.unsigned. IN NS ns.alpha.unsigned.
+ns.alpha.unsigned. IN A 172.30.0.30
+
+; ==================================
+; NUEVOS DOMINIOS DE UNSIGNED
+; ==================================
+
+; Delegacion hacia uno.unsigned
+uno IN NS ns.uno.unsigned.
+ns.uno IN A 172.30.0.80
+
+; Delegacion hacia dos.unsigned
+dos IN NS ns.dos.unsigned.
+ns.dos IN A 172.30.0.81
+
+; Delegacion hacia tres.unsigned
+tres IN NS ns.tres.unsigned.
+ns.tres IN A 172.30.0.82

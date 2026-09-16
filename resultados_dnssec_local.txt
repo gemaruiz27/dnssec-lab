@@ -1,0 +1,311 @@
+======================================================================
+RESULTADOS DNSSEC - RECURSIVO LOCAL 172.30.0.110
+======================================================================
+
+Frame: 6
+Origen: 132.248.108.215
+Destino: 10.0.2.15
+Nombre: unam.mx,unam.mx,<Root>
+Tipo: SOA, RRSIG, 41
+TTL: 7200,7200
+
+Frame: 7
+Origen: 132.248.108.215
+Destino: 172.30.0.110
+Nombre: unam.mx,unam.mx,<Root>
+Tipo: SOA, RRSIG, 41
+TTL: 7200,7200
+
+Frame: 8
+Origen: 132.248.108.215
+Destino: 172.30.0.110
+Nombre: unam.mx,unam.mx,<Root>
+Tipo: SOA, RRSIG, 41
+TTL: 7200,7200
+
+Frame: 9
+Origen: 172.30.0.110
+Destino: 172.30.0.1
+Nombre: unam.mx,unam.mx,<Root>
+Tipo: SOA, RRSIG, 41
+TTL: 7200,7200
+
+Frame: 10
+Origen: 172.30.0.110
+Destino: 172.30.0.1
+Nombre: unam.mx,unam.mx,<Root>
+Tipo: SOA, RRSIG, 41
+TTL: 7200,7200
+
+Frame: 26
+Origen: 132.248.204.32
+Destino: 10.0.2.15
+Nombre: unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,<Root>
+Tipo: NS, NS, NS, NS, NS, RRSIG, 41
+TTL: 7200,7200,7200,7200,7200,7200
+
+Frame: 27
+Origen: 132.248.204.32
+Destino: 172.30.0.110
+Nombre: unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,<Root>
+Tipo: NS, NS, NS, NS, NS, RRSIG, 41
+TTL: 7200,7200,7200,7200,7200,7200
+
+Frame: 28
+Origen: 132.248.204.32
+Destino: 172.30.0.110
+Nombre: unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,<Root>
+Tipo: NS, NS, NS, NS, NS, RRSIG, 41
+TTL: 7200,7200,7200,7200,7200,7200
+
+Frame: 29
+Origen: 172.30.0.110
+Destino: 172.30.0.1
+Nombre: unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,ns3.unam.mx,ns4.unam.mx,ns3.unam.mx,ns4.unam.mx,<Root>
+Tipo: NS, NS, NS, NS, NS, RRSIG, A, A, AAAA, AAAA, 41
+TTL: 7200,7200,7200,7200,7200,7200,86106,86106,86106,86106
+
+Frame: 30
+Origen: 172.30.0.110
+Destino: 172.30.0.1
+Nombre: unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,ns3.unam.mx,ns4.unam.mx,ns3.unam.mx,ns4.unam.mx,<Root>
+Tipo: NS, NS, NS, NS, NS, RRSIG, A, A, AAAA, AAAA, 41
+TTL: 7200,7200,7200,7200,7200,7200,86106,86106,86106,86106
+
+Frame: 36
+Origen: 132.248.204.32
+Destino: 10.0.2.15
+Nombre: unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,<Root>
+Tipo: A, A, A, A, RRSIG, 41
+TTL: 7200,7200,7200,7200,7200
+
+Frame: 37
+Origen: 132.248.204.32
+Destino: 172.30.0.110
+Nombre: unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,<Root>
+Tipo: A, A, A, A, RRSIG, 41
+TTL: 7200,7200,7200,7200,7200
+
+Frame: 38
+Origen: 132.248.204.32
+Destino: 172.30.0.110
+Nombre: unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,<Root>
+Tipo: A, A, A, A, RRSIG, 41
+TTL: 7200,7200,7200,7200,7200
+
+Frame: 39
+Origen: 172.30.0.110
+Destino: 172.30.0.1
+Nombre: unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,<Root>
+Tipo: A, A, A, A, RRSIG, 41
+TTL: 7200,7200,7200,7200,7200
+
+Frame: 40
+Origen: 172.30.0.110
+Destino: 172.30.0.1
+Nombre: unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,<Root>
+Tipo: A, A, A, A, RRSIG, 41
+TTL: 7200,7200,7200,7200,7200
+
+Frame: 49
+Origen: 132.248.108.215
+Destino: 10.0.2.15
+Nombre: unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,<Root>
+Tipo: AAAA, AAAA, AAAA, AAAA, RRSIG, 41
+TTL: 7200,7200,7200,7200,7200
+
+Frame: 50
+Origen: 132.248.108.215
+Destino: 172.30.0.110
+Nombre: unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,<Root>
+Tipo: AAAA, AAAA, AAAA, AAAA, RRSIG, 41
+TTL: 7200,7200,7200,7200,7200
+
+Frame: 51
+Origen: 132.248.108.215
+Destino: 172.30.0.110
+Nombre: unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,<Root>
+Tipo: AAAA, AAAA, AAAA, AAAA, RRSIG, 41
+TTL: 7200,7200,7200,7200,7200
+
+Frame: 52
+Origen: 172.30.0.110
+Destino: 172.30.0.1
+Nombre: unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,<Root>
+Tipo: AAAA, AAAA, AAAA, AAAA, RRSIG, 41
+TTL: 7200,7200,7200,7200,7200
+
+Frame: 53
+Origen: 172.30.0.110
+Destino: 172.30.0.1
+Nombre: unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,<Root>
+Tipo: AAAA, AAAA, AAAA, AAAA, RRSIG, 41
+TTL: 7200,7200,7200,7200,7200
+
+Frame: 64
+Origen: 172.30.0.110
+Destino: 172.30.0.1
+Nombre: unam.mx,unam.mx,unam.mx,unam.mx,<Root>
+Tipo: DNSKEY, DNSKEY, RRSIG, RRSIG, 41
+TTL: 6880,6880,6880,6880
+
+Frame: 65
+Origen: 172.30.0.110
+Destino: 172.30.0.1
+Nombre: unam.mx,unam.mx,unam.mx,unam.mx,<Root>
+Tipo: DNSKEY, DNSKEY, RRSIG, RRSIG, 41
+TTL: 6880,6880,6880,6880
+
+Frame: 68
+Origen: 172.30.0.110
+Destino: 172.30.0.1
+Nombre: unam.mx,unam.mx,<Root>
+Tipo: DS, RRSIG, 41
+TTL: 86072,86072
+
+Frame: 69
+Origen: 172.30.0.110
+Destino: 172.30.0.1
+Nombre: unam.mx,unam.mx,<Root>
+Tipo: DS, RRSIG, 41
+TTL: 86072,86072
+
+Frame: 90
+Origen: 132.248.204.32
+Destino: 10.0.2.15
+Nombre: unam.mx,unam.mx,unam.mx,unam.mx,www.nocv6.unam.mx,www.nocv6.unam.mx,<Root>
+Tipo: SOA, RRSIG, NSEC, A, NS, SOA, 15, 16, AAAA, RRSIG, NSEC, DNSKEY, RRSIG, NSEC, AAAA, RRSIG, NSEC, RRSIG, 41
+TTL: 300,300,300,300,300,300
+
+Frame: 91
+Origen: 132.248.204.32
+Destino: 172.30.0.110
+Nombre: unam.mx,unam.mx,unam.mx,unam.mx,www.nocv6.unam.mx,www.nocv6.unam.mx,<Root>
+Tipo: SOA, RRSIG, NSEC, A, NS, SOA, 15, 16, AAAA, RRSIG, NSEC, DNSKEY, RRSIG, NSEC, AAAA, RRSIG, NSEC, RRSIG, 41
+TTL: 300,300,300,300,300,300
+
+Frame: 92
+Origen: 132.248.204.32
+Destino: 172.30.0.110
+Nombre: unam.mx,unam.mx,unam.mx,unam.mx,www.nocv6.unam.mx,www.nocv6.unam.mx,<Root>
+Tipo: SOA, RRSIG, NSEC, A, NS, SOA, 15, 16, AAAA, RRSIG, NSEC, DNSKEY, RRSIG, NSEC, AAAA, RRSIG, NSEC, RRSIG, 41
+TTL: 300,300,300,300,300,300
+
+Frame: 93
+Origen: 172.30.0.110
+Destino: 172.30.0.1
+Nombre: www.nocv6.unam.mx,www.nocv6.unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,<Root>
+Tipo: RRSIG, NSEC, AAAA, RRSIG, NSEC, SOA, RRSIG, RRSIG, NSEC, A, NS, SOA, 15, 16, AAAA, RRSIG, NSEC, DNSKEY, 41
+TTL: 300,300,300,300,300,300
+
+Frame: 94
+Origen: 172.30.0.110
+Destino: 172.30.0.1
+Nombre: www.nocv6.unam.mx,www.nocv6.unam.mx,unam.mx,unam.mx,unam.mx,unam.mx,<Root>
+Tipo: RRSIG, NSEC, AAAA, RRSIG, NSEC, SOA, RRSIG, RRSIG, NSEC, A, NS, SOA, 15, 16, AAAA, RRSIG, NSEC, DNSKEY, 41
+TTL: 300,300,300,300,300,300
+
+Frame: 95
+Origen: 193.0.14.129
+Destino: 10.0.2.15
+Nombre: mx,mx,mx,mx,mx,mx,mx,mx,c.mx-ns.mx,c.mx-ns.mx,e.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,x.mx-ns.mx,<Root>
+Tipo: NS, NS, NS, NS, NS, NS, DS, RRSIG, A, AAAA, A, AAAA, A, AAAA, A, AAAA, A, AAAA, A, AAAA, 41
+TTL: 172800,172800,172800,172800,172800,172800,86400,86400,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800
+
+Frame: 96
+Origen: 193.0.14.129
+Destino: 10.0.2.15
+Nombre: mx,mx,mx,mx,mx,mx,mx,mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,<Root>
+Tipo: NS, NS, NS, NS, NS, NS, DS, RRSIG, A, A, A, A, A, A, AAAA, AAAA, AAAA, AAAA, AAAA, AAAA, 41
+TTL: 172800,172800,172800,172800,172800,172800,86400,86400,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800
+
+Frame: 97
+Origen: 193.0.14.129
+Destino: 172.30.0.110
+Nombre: mx,mx,mx,mx,mx,mx,mx,mx,c.mx-ns.mx,c.mx-ns.mx,e.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,x.mx-ns.mx,<Root>
+Tipo: NS, NS, NS, NS, NS, NS, DS, RRSIG, A, AAAA, A, AAAA, A, AAAA, A, AAAA, A, AAAA, A, AAAA, 41
+TTL: 172800,172800,172800,172800,172800,172800,86400,86400,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800
+
+Frame: 98
+Origen: 193.0.14.129
+Destino: 172.30.0.110
+Nombre: mx,mx,mx,mx,mx,mx,mx,mx,c.mx-ns.mx,c.mx-ns.mx,e.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,x.mx-ns.mx,<Root>
+Tipo: NS, NS, NS, NS, NS, NS, DS, RRSIG, A, AAAA, A, AAAA, A, AAAA, A, AAAA, A, AAAA, A, AAAA, 41
+TTL: 172800,172800,172800,172800,172800,172800,86400,86400,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800
+
+Frame: 99
+Origen: 193.0.14.129
+Destino: 172.30.0.110
+Nombre: mx,mx,mx,mx,mx,mx,mx,mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,<Root>
+Tipo: NS, NS, NS, NS, NS, NS, DS, RRSIG, A, A, A, A, A, A, AAAA, AAAA, AAAA, AAAA, AAAA, AAAA, 41
+TTL: 172800,172800,172800,172800,172800,172800,86400,86400,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800
+
+Frame: 100
+Origen: 193.0.14.129
+Destino: 172.30.0.110
+Nombre: mx,mx,mx,mx,mx,mx,mx,mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,<Root>
+Tipo: NS, NS, NS, NS, NS, NS, DS, RRSIG, A, A, A, A, A, A, AAAA, AAAA, AAAA, AAAA, AAAA, AAAA, 41
+TTL: 172800,172800,172800,172800,172800,172800,86400,86400,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800
+
+Frame: 101
+Origen: 193.0.14.129
+Destino: 10.0.2.15
+Nombre: mx,mx,mx,mx,mx,mx,mx,mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,<Root>
+Tipo: NS, NS, NS, NS, NS, NS, DS, RRSIG, A, A, A, A, A, A, AAAA, AAAA, AAAA, AAAA, AAAA, AAAA, 41
+TTL: 172800,172800,172800,172800,172800,172800,86400,86400,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800
+
+Frame: 102
+Origen: 193.0.14.129
+Destino: 172.30.0.110
+Nombre: mx,mx,mx,mx,mx,mx,mx,mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,<Root>
+Tipo: NS, NS, NS, NS, NS, NS, DS, RRSIG, A, A, A, A, A, A, AAAA, AAAA, AAAA, AAAA, AAAA, AAAA, 41
+TTL: 172800,172800,172800,172800,172800,172800,86400,86400,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800
+
+Frame: 103
+Origen: 193.0.14.129
+Destino: 172.30.0.110
+Nombre: mx,mx,mx,mx,mx,mx,mx,mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,<Root>
+Tipo: NS, NS, NS, NS, NS, NS, DS, RRSIG, A, A, A, A, A, A, AAAA, AAAA, AAAA, AAAA, AAAA, AAAA, 41
+TTL: 172800,172800,172800,172800,172800,172800,86400,86400,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800
+
+Frame: 104
+Origen: 199.7.91.13
+Destino: 10.0.2.15
+Nombre: mx,mx,mx,mx,mx,mx,mx,mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,<Root>
+Tipo: NS, NS, NS, NS, NS, NS, DS, RRSIG, A, A, A, A, A, A, AAAA, AAAA, AAAA, AAAA, AAAA, AAAA, 41
+TTL: 172800,172800,172800,172800,172800,172800,86400,86400,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800
+
+Frame: 105
+Origen: 199.7.91.13
+Destino: 10.0.2.15
+Nombre: mx,mx,mx,mx,mx,mx,mx,mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,<Root>
+Tipo: NS, NS, NS, NS, NS, NS, DS, RRSIG, A, A, A, A, A, A, AAAA, AAAA, AAAA, AAAA, AAAA, AAAA, 41
+TTL: 172800,172800,172800,172800,172800,172800,86400,86400,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800
+
+Frame: 106
+Origen: 199.7.91.13
+Destino: 172.30.0.110
+Nombre: mx,mx,mx,mx,mx,mx,mx,mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,<Root>
+Tipo: NS, NS, NS, NS, NS, NS, DS, RRSIG, A, A, A, A, A, A, AAAA, AAAA, AAAA, AAAA, AAAA, AAAA, 41
+TTL: 172800,172800,172800,172800,172800,172800,86400,86400,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800
+
+Frame: 107
+Origen: 199.7.91.13
+Destino: 172.30.0.110
+Nombre: mx,mx,mx,mx,mx,mx,mx,mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,<Root>
+Tipo: NS, NS, NS, NS, NS, NS, DS, RRSIG, A, A, A, A, A, A, AAAA, AAAA, AAAA, AAAA, AAAA, AAAA, 41
+TTL: 172800,172800,172800,172800,172800,172800,86400,86400,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800
+
+Frame: 108
+Origen: 199.7.91.13
+Destino: 172.30.0.110
+Nombre: mx,mx,mx,mx,mx,mx,mx,mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,<Root>
+Tipo: NS, NS, NS, NS, NS, NS, DS, RRSIG, A, A, A, A, A, A, AAAA, AAAA, AAAA, AAAA, AAAA, AAAA, 41
+TTL: 172800,172800,172800,172800,172800,172800,86400,86400,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800
+
+Frame: 109
+Origen: 199.7.91.13
+Destino: 172.30.0.110
+Nombre: mx,mx,mx,mx,mx,mx,mx,mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,c.mx-ns.mx,e.mx-ns.mx,i.mx-ns.mx,m.mx-ns.mx,o.mx-ns.mx,x.mx-ns.mx,<Root>
+Tipo: NS, NS, NS, NS, NS, NS, DS, RRSIG, A, A, A, A, A, A, AAAA, AAAA, AAAA, AAAA, AAAA, AAAA, 41
+TTL: 172800,172800,172800,172800,172800,172800,86400,86400,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800,172800

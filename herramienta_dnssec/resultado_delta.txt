@@ -1,0 +1,30 @@
+=================================================================
+ ANALIZADOR DNSSEC
+=================================================================
+Zona: delta.signed.
+
+=== DNSKEY ===
+[!] No se encontraron DNSKEY
+
+=== RRSIG ===
+[!] No se encontraron RRSIG
+
+=== NSEC / NSEC3 ===
+[!] No se detecto NSEC ni NSEC3PARAM en la consulta.
+
+=== CADENA DE CONFIANZA ===
+. -> signed. -> delta.signed.
+[OK] Trust Anchor de la raiz coincide
+[OK] signed.: DS coincide con DNSKEY
+[ERROR] delta.signed.: DS NO coincide con DNSKEY
+
+=== TTL ===
+DS: 86276 segundos
+
+=== RESPUESTA DEL RECURSIVO DNSSEC ===
+Estado: SERVFAIL
+AD: NO
+
+=================================================================
+RESULTADO FINAL: BOGUS
+=================================================================

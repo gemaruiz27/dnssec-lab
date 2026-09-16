@@ -1,0 +1,43 @@
+$TTL 86400
+
+@ IN SOA ns.signed. admin.signed. (
+    2026090801
+    3600
+    900
+    604800
+    86400
+)
+
+@ IN NS ns.signed.
+
+ns IN A 172.30.0.40
+
+; Delegacion hacia beta.signed
+beta.signed. IN NS ns.beta.signed.
+ns.beta.signed. IN A 172.30.0.50
+
+beta.signed. IN DS 56945 13 2 BDBE40E92B65170671587BB20D78253F80A48C18391E6E30D6AB271AD572FEBD
+
+; Delegacion hacia gamma.signed
+gamma.signed. IN NS ns.gamma.signed.
+ns.gamma.signed. IN A 172.30.0.60
+
+; ==================================
+; NUEVOS DOMINIOS DE SIGNED
+; ==================================
+
+; Delegacion hacia delta.signed
+delta IN NS ns.delta.signed.
+ns.delta IN A 172.30.0.83
+delta IN DS 25026 13 2 A749F183506F3D2C3051231EC2F94D84DBEC91290982676B51FCA28EB6CA4EFE
+
+; Delegacion hacia epsilon.signed
+epsilon IN NS ns.epsilon.signed.
+ns.epsilon IN A 172.30.0.84
+epsilon IN DS 30307 13 2 1ABA41ADB95A6B2CBF3BB21324D5925EEF693CE778F8D5B8EC73543708AF7554
+
+; Delegacion hacia zeta.signed
+zeta IN NS ns.zeta.signed.
+ns.zeta IN A 172.30.0.85
+
+
